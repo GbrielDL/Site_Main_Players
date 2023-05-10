@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: padrao;
+    src: url('fonts/Coral\ Candy-Regular-Demo.ttf') format('truetype');
+}
+@font-face {
+    font-family: paragrafo;
+    src: url('fonts/game_sans_serif_7.ttf') format('truetype');
+}
+@font-face {
+    font-family: classic;
+    src: url('fonts/Classica-Bold.ttf') format('truetype');
+}
+
+body {
+    margin: auto;
+    background-image: linear-gradient(to left, #0A0A0A, #240F0F);
+}
+a {
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    padding: 10px 0;
+    font-family: padrao;
+    color: #ffffff;
+    cursor: default;
+}
+main > ul {
+    list-style: none;
+    columns: 7;
+}
+li {
+    margin-left: -30px;
+}
+img {
+    width: 125px;
+    background-color: #140B0C;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px #00000050;
+    margin: 0 30px;
+    border: 3px solid #ffffff00;
+    transition: 0.4s ease-in-out;
+}
+img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 3px solid #4A20AD;
+    box-shadow: 0 0 12px 0 #4A20AD;
+}
+.breach:hover {
+    border: 3px solid #C76233;
+    box-shadow: 0 0 12px 0 #C76233;
+}
+.brimstone:hover {
+    border: 3px solid #a1450c;
+    box-shadow: 0 0 12px 0 #a1450c;
+}
+.chamber:hover {
+    border: 3px solid #B58F3E;
+    box-shadow: 0 0 12px 0 #B58F3E;
+}
+.cypher:hover {
+    border: 3px solid #EEF2E4;
+    box-shadow: 0 0 12px 0 #EEF2E4;
+}
+.fade:hover {
+    border: 3px solid #384150;
+    box-shadow: 0 0 12px 0 #384150;
+}
+.gekko:hover {
+    border: 3px solid #C6E47B;
+    box-shadow: 0 0 12px 0 #C6E47B;
+}
+.harbor:hover {
+    border: 3px solid #174974;
+    box-shadow: 0 0 12px 0 #174974;
+}
+.jett:hover {
+    border: 3px solid white;
+    box-shadow: 0 0 12px 0 white;
+}
+.kayo:hover {
+    border: 3px solid #4C7BFE;
+    box-shadow: 0 0 12px 0 #4C7BFE;
+}
+.killjoy:hover {
+    border: 3px solid #F9DD30;
+    box-shadow: 0 0 12px 0 #F9DD30;
+}
+.neon:hover {
+    border: 3px solid #3173AA;
+    box-shadow: 0 0 12px 0 #3173AA;
+}
+.omen:hover {
+    border: 3px solid #292A76;
+    box-shadow: 0 0 12px 0 #292A76;
+}
+.phoenix:hover {
+    border: 3px solid #FEAD54;
+    box-shadow: 0 0 12px 0 #FEAD54;
+}
+.raze:hover {
+    border: 3px solid #FFAA51;
+    box-shadow: 0 0 12px 0 #FFAA51;
+}
+.reyna:hover {
+    border: 3px solid #A54599;
+    box-shadow: 0 0 12px 0 #A54599;
+}
+.sage:hover {
+    border: 3px solid #9DFFF0;
+    box-shadow: 0 0 12px 0 #9DFFF0;
+}
+.skye:hover {
+    border: 3px solid #4dd970;
+    box-shadow: 0 0 12px 0 #4dd970;
+}
+.sova:hover {
+    border: 3px solid #B3A38F;
+    box-shadow: 0 0 12px 0 #B3A38F;
+}
+.viper:hover {
+    border: 3px solid #589A39;
+    box-shadow: 0 0 12px 0 #589A39;
+}
+.yoru:hover {
+    border: 3px solid #0C52C9;
+    box-shadow: 0 0 12px 0 #0C52C9;
+}
+main p {
+    padding: 5px 55px;
+    font-family: paragrafo;
+    color: #ebd7d7;
+    cursor: default;
+}
+div.footer > h3 {
+    font-family: classic;
+    color: white;
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 150px;
+    margin-bottom: 25px;
+}
+div.box > p {
+    cursor: pointer;
+}
+div.box {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+div.box:hover {
+    width: 150px;
+    background-color: #1877f2;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 0 0 50px #1876f285;
+}
+div.box:nth-child(2):hover {
+    background-color: #c32aa3;
+    box-shadow: 0 0 50px #b315917c;
+}
+div.box:nth-child(3):hover {
+    background-color: #686868;
+    box-shadow: 0 0 50px #414141;
+}
+div.box > p {
+    transform: translate(8px);
+    font-size: 20px;
+    font-family: paragrafo;
+}
+.iconfacebook {
+    margin: 5px 0 0 -5px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #1877f2;
+}
+.iconinstagram {
+    margin: 5px 0 0 -5px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #c32aa3;
+}
+.icongithub {
+    margin: 5px 0 0 -5px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #686868;
+}
+p > a {
+    color: white;
+    text-decoration: none
+}
+#creditos {
+    background-color: black;
+    padding: 8px;
+    font-size: 15px;
+}
+#creditos p {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        margin: auto;
+    }
+    main p {
+        padding: 5px 35px;
+    }
+    main ul {
+        width: 990px;
+        columns: 7;
+        padding: 0;
+    }
+    li {
+        margin-left: 1px;
+    }
+    div {
+        margin: auto;
+    }
+    img {
+        width: 80px;
+    }
+    footer h3 {
+        font-size: 16px;
+    }
+    #creditos p {
+        color: white;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    body {
+        font-size: 10px;
+    }
+    main p {
+        font-size: 16px;
+    }
+    main ul {
+        width: 100%;
+        columns: 3;
+        padding: 0;
+    }
+    img {
+        width: 90px;
+        margin: 0 20px;
+    }
+    div.box {
+        padding: 0;
+    }
+    div.box p {
+        font-size: 12px;
+    }
+    div.box a {
+        padding-left: -10px;
+    }
+    div.iconfacebook {
+        font-size: 25px;
+        padding: 8px;
+    }
+    div.iconinstagram {
+        font-size: 25px;
+        padding: 8px;
+    }
+    div.icongithub {
+        font-size: 25px;
+        padding: 8px;
+    }
+    div.box:hover {
+        width: 200px;
+    }
+    div.footer {
+        margin-top: 50px;
+    }
+    #creditos p {
+        color: white;
+        text-align: center;
+    }
+}
